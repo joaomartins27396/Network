@@ -1,0 +1,26 @@
+Exercício prático 1
+- instalar e preparar Python 2: https://www.python.org/download/releases/2.7.8/
+
+- testar com o primeiro exemplo em: https://docs.python.org/2/library/socket.html#example
+
+- utilizar o exemplo para implementar um serviço de registo de mensagens de texto, de acordo com o seguinte protocolo:
+
+1) cliente envia mensagem a gravar
+
+2) servidor responde com um identificador associado à mensagem gravada
+
+3) cliente envia identificador, para obter a mensagem que gravou anteriormente
+
+
+Exercício prático 2
+- enviar e validar códigos CRC para as mensagens do sistema implementado na aula 1, utilizando a bibioteca "zlib"
+
+- permitir envio de ficheiros, anexos às mensagens do sistema da aula 1
+
+- atender múltiplos clientes em simultâneo, no servidor da aula 1, utilzando a biblioteca "select"
+
+
+Exercício prático 3
+- implementar a transferência de ficheiros (anteriormente referida) com o protocolo UDP, utilizando blocos de 64 bytes
+
+- simular as caracte
